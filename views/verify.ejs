@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<%- include ('./include/head') %>
+
+<body>
+<div class="page container">
+    <div class="row main-box">
+        <div id="verify-body" class="text-center">
+            <img src="/images/logo.png" width="100" class="img-thumbnail center">
+            Please verify you own an NFT from the collection
+            <h3>
+                Verifying
+            </h3>
+            <div class="progress blue"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+                <div class="progress-value">0%</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include ('./include/scripts') %>
+<script src="libs/verify.js"></script>
+
+</body>
+
+</html>

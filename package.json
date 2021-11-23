@@ -1,0 +1,35 @@
+{
+  "name": "up-routing-node.js-express-ejs",
+  "author": "Napthees <napthees@email.com>",
+  "version": "0.1.1",
+  "description": "Website Page Routing with Node.js Express and EJS",
+  "license": "MIT",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Website",
+    "routing",
+    "node.js",
+    "express",
+    "ejs",
+    "bootstrap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/napthees/up-routing-node.js-express-ejs.git"
+  },
+  "homepage": "https://github.com/napthees/up-routing-node.js-express-ejs#readme"
+}
